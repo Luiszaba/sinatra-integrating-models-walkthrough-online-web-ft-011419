@@ -20,5 +20,22 @@ class TextAnalyzer
     text.scan(/[bcdfgfhjklmnprstvwxyz]/).count
   end
   
-  def 
+  def most_used_letter
+    s1 = text.gsub(/[^a-z]/, '')
+    arr = s1.split('')
+    arr1 = arr.uniq
+    arr2 = {}
+    
+    arr2.map do |c|
+      arr2[c] = arr.count(c)
+    end
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
