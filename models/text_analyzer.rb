@@ -29,7 +29,8 @@ class TextAnalyzer
     arr2.map do |c|
       arr2[c] = arr.count(c)
     end
-    
+  end
+  
     
     
     
